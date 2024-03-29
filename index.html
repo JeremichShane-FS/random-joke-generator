@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="#" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Assignment: Working With APIs</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="header__title">🤣 Random Joke Generator</h2>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">"Lighten your mood, one joke byte at a time!"</h1>
+      </div>
+    </section>
+
+    <section class="joke container">
+      <div class="card">
+        <div class="card__lol">😆</div>
+        <div class="loader" id="loader"></div>
+        <div class="card__content">
+          <p id="question"></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__content">
+          <p id="answer"></p>
+        </div>
+      </div>
+      <button type="submit" id="jokeBtn" class="joke__btn">Get Another Joke!</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p id="copyright"></p>
+    </div>
+  </footer>
+
+  <script src="js/copyright.js" defer></script>
+  <script src="js/main.js" type="module" defer></script>
+</body>
+
+</html>

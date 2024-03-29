@@ -1,0 +1,13 @@
+@use "variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+  font-family: $font-face-primary;
+  font-size: $font-size-primary;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-primary;
+}
+
+h1 {
+  font-size: 4rem;
+}
